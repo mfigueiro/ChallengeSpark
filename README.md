@@ -19,8 +19,8 @@ Utilizando o framework spark, na linguagem de sua preferência, identificar as s
 
 2 - Qual a diferença de um RDD e um Dataframe?
 
-Markdown | Less | Pretty
---- | --- | ---
+**RDD** | **Dataframe** 
+--- | --- 
 *Still* | `renders` | **nicely**
 1 | 2 | 3
 
