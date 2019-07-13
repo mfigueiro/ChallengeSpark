@@ -1,4 +1,4 @@
-# ChallengingSpark
+# Challenging Spark
 
 ## Trabalho prático com SPARK:
 Fazer o download do arquivo indicado no link abaixo: https://www.kaggle.com/kemical/kickstarter-projects/downloads/ks-projects-201612.csv/7
