@@ -5,7 +5,7 @@ Fazer o download do arquivo indicado no link abaixo: https://www.kaggle.com/kemi
 
 Utilizando o framework spark, na linguagem de sua preferência, identificar as seguintes informações:
 
-[Access code in R here](../blob/master/LICENSE)
+[Access code in R here]()
 
 1 - Quantidade de projetos por país;
 
