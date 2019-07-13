@@ -19,11 +19,19 @@ Utilizando o framework spark, na linguagem de sua preferência, identificar as s
 
 1 - Em quais situações uma rotina implementada em Spark será mais rápida que uma rotina implementada em MapReduce?
 
+> **Spark** versus **Hadoop MapReduce**
+>
+> 
+
 2 - Qual a diferença de um RDD e um Dataframe?
 
-> + **RD** - 
+> + **RDD** - 
 >
 > + **Dataframe** - 
 
 3 - Quais os benefícios do conceito de Lazy Evaluation no Spark?
+
+> **Lazy Evaluation**
+>
+>
 
