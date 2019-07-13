@@ -5,6 +5,7 @@ Fazer o download do arquivo indicado no link abaixo: https://www.kaggle.com/kemi
 Trata-se de uma base de projetos de financiamento coletivo da plataforma KickStarter que servirão como base para as seguintes tarefas:
 
 Utilizando o framework spark, na linguagem de sua preferência, identificar as seguintes informações:
+
 1 - Quantitdade de projetos por país;
 
 2 - Gravar os resultados em um arquivo CSV;
