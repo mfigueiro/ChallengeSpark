@@ -19,5 +19,10 @@ Utilizando o framework spark, na linguagem de sua preferência, identificar as s
 
 2 - Qual a diferença de um RDD e um Dataframe?
 
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
 3 - Quais os benefícios do conceito de Lazy Evaluation no Spark?
 
