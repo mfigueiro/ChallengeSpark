@@ -6,8 +6,11 @@ Trata-se de uma base de projetos de financiamento coletivo da plataforma KickSta
 
 Utilizando o framework spark, na linguagem de sua preferência, identificar as seguintes informações:
 1 - Quantitdade de projetos por país;
+
 2 - Gravar os resultados em um arquivo CSV;
+
 3 - Quais as 3 categorias com maior quantidade de projetos aprovados, e quanto foi arrecadado em projetos aprovados por cada uma destas 3 categorias;
+
 4 - Para os projetos bem sucedidos do país "US" qual o valor em dólares foi arrecadado acima das metas estabelecidas.
 
 ## Questões dissertativas:
