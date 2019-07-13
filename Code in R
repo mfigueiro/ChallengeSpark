@@ -1,0 +1,9 @@
+# CODE IN R 
+
+library(sparklyr)
+library(data.table)
+library(dplyr)
+library(tidyverse)
+##spark_available_versions()
+##spark_install("2.4")
+##spark_installed_versions()
