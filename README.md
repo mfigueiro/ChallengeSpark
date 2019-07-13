@@ -19,7 +19,7 @@ Utilizando o framework spark, na linguagem de sua preferência, identificar as s
 
 1 - Em quais situações uma rotina implementada em Spark será mais rápida que uma rotina implementada em MapReduce?
 
-> **Spark** versus **Hadoop MapReduce**
+> **Apache Spark** versus **Hadoop MapReduce**
 >
 > 
 
