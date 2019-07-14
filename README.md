@@ -33,7 +33,7 @@ Utilizando o framework spark, na linguagem de sua preferência, identificar as s
 
 > **Lazy Evaluation** no Spark significa que nenhuma execução será iniciada até que uma operação de ação seja acionada. Suas vantagens 
 > são:
-> + Aumento do poder da plataforma Apache Spark, uma vez que reduz o tempo de execução das operações do RDDs. Como resultado, otimiza o desempenho e alcança a tolerância a falhas;
+> + Aumento do poder da plataforma Apache Spark, uma vez que reduz o tempo de execução das operações do RDD. Como resultado, otimiza o desempenho e alcança a tolerância a falhas;
 > + As duas principais complexidades de qualquer operação são complexidade de tempo e espaço. Uma vez que nem todas as operações são 
 > executadas, há uma redução no tempo, possibilitando trabalhar com uma estrutura de dados infinita. A operação é acionada apenas quando
 > os dados são necessários, reduzindo, assim, a sobrecarga.
