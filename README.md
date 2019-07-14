@@ -25,7 +25,7 @@ Utilizando o framework spark, na linguagem de sua preferência, identificar as s
 
 2 - Qual a diferença de um RDD e um Dataframe?
 
-> + **Dataframe** é uma abstração de mais alto nível do que o **RDDs**;
+> + **Dataframe** é uma abstração de mais alto nível do que o **RDD**;
 > + **RDD** é uma unidade fundamental de dados em Spark enquanto que **DataFrame** é uma estrutura de dados especializada para lidar com dados bidimensionais semelhantes a tabelas, organizada em colunas;
 > + **RDD** permite que um programador execute computação em memória em grandes clusters de uma maneira tolerante a falhas.
 
