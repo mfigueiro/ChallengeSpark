@@ -24,7 +24,7 @@ Utilizando o framework spark, na linguagem de sua preferência, identificar as s
 > + A Spark é fácil de usar e suporta diferentes linguagens de programação tais como Python, R e Scala. Nos algoritmos de Machine Learning, que na sua grande maioria, exigem múltiplas operações e processos iterativos sobre o mesmo conjunto de dados (reuso de dados), a Hadoop apresenta baixo desempenho, sendo mais ineficiente à computação iterativa do que a plataforma Spark.   
 
 2 - Qual a diferença de um RDD e um Dataframe?
-
+> **Dataframe** versus **RDD**
 > + **Dataframe** é uma abstração de mais alto nível do que o **RDD**;
 > + **RDD** é uma unidade fundamental de dados em Spark enquanto que **DataFrame** é uma estrutura de dados especializada para lidar com dados bidimensionais semelhantes a tabelas, organizada em colunas;
 > + **RDD** permite que um programador execute computação em memória em grandes clusters de uma maneira tolerante a falhas.
