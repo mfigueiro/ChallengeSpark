@@ -20,8 +20,8 @@ Utilizando o framework spark, na linguagem de sua preferência, identificar as s
 1 - Em quais situações uma rotina implementada em Spark será mais rápida que uma rotina implementada em MapReduce?
 
 > **Apache Spark** versus **Hadoop MapReduce**
-> + Appache Spark é mais rápido e pode reduzir o tempo de processamento dos dados em até 100 vezes quando estes são armazenados na memória ou em até 10 vezes quando são armazenados em disco rígido em relação ao Hadoop MapReduce.
-> 
+> + A plataforma Apache Spark é mais rápida e pode reduzir o tempo de processamento dos dados em até 100 vezes quando armazenados na memória ou em até 10 vezes quando armazenados em disco em relação à Hadoop MapReduce. Uma vez que a Spark atua sobre todo o conjunto de dados de uma vez só, enquanto que a Hadoop atua em etapas;
+> + A Spark é fácil de usar e suporta diferentes linguagens de programação tais como Python, R, Scala. Nos algoritmos de Machine Learning, que na sua grande maioria, exigem múltiplas operações (iterações) sobre o mesmo conjunto de dados, a Hadoop apresenta baixo desempenho, e ineficiente à computação iterativa quando comparada à Spark.   
 
 2 - Qual a diferença de um RDD e um Dataframe?
 
