@@ -31,7 +31,6 @@ Utilizando o framework spark, na linguagem de sua preferência, identificar as s
 
 3 - Quais os benefícios do conceito de Lazy Evaluation no Spark?
 
-> **Lazy Evaluation**
->
->
-
+> **Lazy Evaluation** no Spark significa que nenhuma execução será iniciada até que uma operação de ação seja acionada. Suas vantagens >são:
+> + Aumento do poder da plataforma, uma vez que reduz o tempo de execução das operações RDD, mantendo o gráfico de linhagem para lembrar as operações no RDD. Como resultado, otimiza o desempenho e alcança a tolerância a falhas;
+> + As duas principais complexidades de qualquer operação são complexidade de tempo e espaço. Uma vez que nem todas as operações são executadas, há uma redução no tempo, que possibilita trabalhar com uma estrutura de dados infinita. A operação é acionada apenas quando os dados são necessários, reduzindo, assim, a sobrecarga.
