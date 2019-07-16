@@ -17,6 +17,7 @@ sc <- spark_connect(master = "local",
 spark_web(sc)
 
 ####### read the dataset into R #######
+"OBS. No arquivo data1.csv, em relação ao arquivo orginal, foram removidos os símbolos ',,,,' no excel."
 ks_tbl <- read.csv("data1.csv",sep=',', quote= "",
                 fill=TRUE,
                 header=TRUE, stringsAsFactors=FALSE)
