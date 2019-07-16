@@ -17,9 +17,11 @@ Utilizando o framework spark, na linguagem de sua preferência, identificar as s
 
 [Access csv file here](https://github.com/mfigueiro/ChallengeSpark/blob/master/mytable2.csv)
 
->
->
->
+> **Categorias** | **Frequência (n)** | **Arrecadação** | 
+> --- | --- | --- |
+> Product Design |  |  |
+> Documentary |  |  |
+> Music |  |  |
 
 4 - Para os projetos bem sucedidos do país "US" qual o valor em dólares foi arrecadado acima das metas estabelecidas.
 
