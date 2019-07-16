@@ -49,11 +49,11 @@ src_tbls(sc)
 
 
 ####### Data analysis and save the results #######
-#Quantidade de projetos por país;
+# 1) Quantidade de projetos por país;
 res1 <- table(ks_tbl$country)
-write.csv(x,"mytable1.csv",quote=F)
+write.csv(res1,"mytable1.csv",quote=F)
 
-#Quais as 3 categorias com maior quantidade de projetos aprovados, 
+# 2) Quais as 3 categorias com maior quantidade de projetos aprovados, 
 #e quanto foi arrecadado em projetos aprovados por cada uma destas 
 #3 categorias
 
@@ -61,10 +61,10 @@ res2 <- table(ks_tbl$category)
 x <- sort(res2,decreasing=T)
 write.csv(x,"mytable2.csv",quote=F)
 
-#Para os projetos bem sucedidos do país "US" qual o valor em dólares 
+# 3) Para os projetos bem sucedidos do país "US" qual o valor em dólares 
 #foi arrecadado acima das metas estabelecidas.
 
-capture.output(res0,file = "file.csv")  ### save the results
+write.csv(res3,"mytable2.csv",quote=F)
 
 spark_disconnect(sc)
 
