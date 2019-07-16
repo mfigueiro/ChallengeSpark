@@ -11,7 +11,7 @@ Utilizando o framework spark, na linguagem de sua preferência, identificar as s
 
 2 - Gravar os resultados em um arquivo CSV;
 
-[Access csv file here](https://github.com/mfigueiro/ChallengingSpark/blob/master/Code%20in%20R)
+[Access csv file here](https://github.com/mfigueiro/ChallengeSpark/blob/master/file.csv)
 
 3 - Quais as 3 categorias com maior quantidade de projetos aprovados, e quanto foi arrecadado em projetos aprovados por cada uma destas 3 categorias;
 
