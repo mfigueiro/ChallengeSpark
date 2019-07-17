@@ -3,6 +3,8 @@
 ## Trabalho prático com SPARK:
 Fazer o download do arquivo indicado no link abaixo: https://www.kaggle.com/kemical/kickstarter-projects/downloads/ks-projects-201612.csv/7 . Trata-se de uma base de projetos de financiamento coletivo da plataforma KickStarter que servirão como base para as seguintes tarefas.
 
+[Access data cookbook](https://github.com/mfigueiro/ChallengingSpark/blob/master/Code%20in%20R)
+
 Utilizando o framework spark, na linguagem de sua preferência, identificar as seguintes informações:
 
 [Access code in R here](https://github.com/mfigueiro/ChallengingSpark/blob/master/Code%20in%20R)
