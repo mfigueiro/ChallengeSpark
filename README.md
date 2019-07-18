@@ -31,9 +31,6 @@ Utilizando o framework spark, na linguagem de sua preferência, identificar as s
 
 4 - Para os projetos bem sucedidos do país "US" qual o valor em dólares foi arrecadado acima das metas estabelecidas.
 
-[Access csv file here]()
-
-
 ## Questões dissertativas:
 
 1 - Em quais situações uma rotina implementada em Spark será mais rápida que uma rotina implementada em MapReduce?
