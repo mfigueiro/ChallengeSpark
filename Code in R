@@ -1,6 +1,7 @@
 ### CODE IN R ###
 
 ####### load packages ######
+
 packageVersion("sparklyr") ## new version
 library(sparklyr)
 library(data.table)
@@ -8,6 +9,7 @@ library(dplyr)
 library(tidyverse)
 
 ####### Connect to local Spark instance #######
+
 #spark_available_versions()
 #spark_install("2.4.3")
 #spark_installed_versions()
@@ -17,7 +19,9 @@ sc <- spark_connect(master = "local",
 spark_web(sc)
 
 ####### read the dataset into R #######
-"OBS. No arquivo data1.csv, em relação ao arquivo orginal, foram removidos os símbolos ',,,,' no excel."
+
+#OBS. A limpeza dos dados foi feita à mão, usando o Excel.
+
 ks_tbl <- read.csv("data1.csv",sep=',', quote= "",
                 fill=TRUE,
                 header=TRUE, stringsAsFactors=FALSE)
@@ -31,16 +35,6 @@ dim(ks_tbl) ### 13 variables
 class(ks_tbl)
 View(ks_tbl)
 
-####### Data preprocessing ######
-# concatenate names when they contain a comma
-dat$name <- ifelse(nchar(dat$category)>0,
-                   dat$name <- paste(dat$name,dat$category,
-                                     sep=','),
-                   for (i in 3:13) 
-                     colnames(dat)[i] <- colnames(dat)[i+1]
-)
-
-
 # pushing the data into Spark DataFrame
 ks_proj_tbl <- copy_to(sc, ks_tbl, "ks_projects", overwrite = TRUE)
 
@@ -50,6 +44,7 @@ src_tbls(sc)
 
 
 ####### Data analysis and save the results #######
+
 # 1) Quantidade de projetos por país;
 res1 <- table(ks_tbl$country)
 write.csv(res1,"mytable1.csv",quote=F)
