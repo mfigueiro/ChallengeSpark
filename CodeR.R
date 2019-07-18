@@ -23,10 +23,7 @@ spark_web(sc)
 
 #OBS. A limpeza dos dados foi feita à mão, usando o Excel.
 
-ks_tbl <- read.csv("ks-projects-201612.csv", quote= "",
-                   fill=TRUE,
-                   header=TRUE, stringsAsFactors=FALSE)
-                   
+ks_tbl <- read.csv("ks-projects-201612.csv")      
 # basic check to see the data has been properly read
 
 str(ks_tbl)
