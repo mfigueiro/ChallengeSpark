@@ -65,7 +65,8 @@ write.csv(res21,"mytable3.csv",quote=F)
 # 3) Para os projetos bem sucedidos do país "US" qual o valor em dólares 
 #foi arrecadado acima das metas estabelecidas.
 
-write.csv(res3,"mytable2.csv",quote=F)
+res3 <- ks_tbl %>%
+        dplyr::filter(country == "US")
 
 ####### Disconnecting to local Spark #######
 spark_disconnect(sc)
