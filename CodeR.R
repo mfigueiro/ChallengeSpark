@@ -56,6 +56,12 @@ res2 <- table(ks_tbl$category)
 x <- sort(res2,decreasing=T)
 write.csv(x,"mytable2.csv",quote=F)
 
+res21 <- ks_tbl %>% 
+        dplyr::group_by(category) %>%
+        filter(category %in% c("Product Design","Documentary", "Music")) %>%
+        summarize(mean_size = mean(usd.pledged, na.rm = TRUE))
+write.csv(res21,"mytable3.csv",quote=F)
+
 # 3) Para os projetos bem sucedidos do país "US" qual o valor em dólares 
 #foi arrecadado acima das metas estabelecidas.
 
