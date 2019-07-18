@@ -21,9 +21,9 @@ Utilizando o framework spark, na linguagem de sua preferência, identificar as s
 
 > **Categorias** | **Frequência (n)** | **Arrecadação** | 
 > --- | --- | --- |
-> Product Design |  |  |
-> Documentary |  |  |
-> Music |  |  |
+> Product Design | 22314 |  |
+> Documentary | 16139 |  |
+> Music | 15727  |  |
 
 4 - Para os projetos bem sucedidos do país "US" qual o valor em dólares foi arrecadado acima das metas estabelecidas.
 
