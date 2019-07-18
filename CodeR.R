@@ -66,5 +66,7 @@ write.csv(res21,"mytable3.csv",quote=F)
 #foi arrecadado acima das metas estabelecidas.
 
 write.csv(res3,"mytable2.csv",quote=F)
+
+####### Disconnecting to local Spark #######
 spark_disconnect(sc)
 
