@@ -17,7 +17,8 @@ Utilizando o framework spark, na linguagem de sua preferência, identificar as s
 
 3 - Quais as 3 categorias com maior quantidade de projetos aprovados, e quanto foi arrecadado em projetos aprovados por cada uma destas 3 categorias;
 
-[Access csv file here](https://github.com/mfigueiro/ChallengeSpark/blob/master/mytable2.csv, https://github.com/mfigueiro/ChallengeSpark/blob/master/mytable3.csv)
+**Categorias**
+[Access csv file here](https://github.com/mfigueiro/ChallengeSpark/blob/master/mytable2.csv)
 
 > **Categorias** | **Frequência (n)** | **Arrecadação** | 
 > --- | --- | --- |
@@ -25,9 +26,12 @@ Utilizando o framework spark, na linguagem de sua preferência, identificar as s
 > Documentary | 16139 |  |
 > Music | 15727  |  |
 
+**Arrecadação**
+[Access csv file here](https://github.com/mfigueiro/ChallengeSpark/blob/master/mytable3.csv)
+
 4 - Para os projetos bem sucedidos do país "US" qual o valor em dólares foi arrecadado acima das metas estabelecidas.
 
-[Access csv file here](https://github.com/mfigueiro/ChallengeSpark/blob/master/mytable3.csv)
+[Access csv file here]()
 
 
 ## Questões dissertativas:
