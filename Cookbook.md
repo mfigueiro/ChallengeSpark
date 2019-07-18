@@ -1,7 +1,7 @@
 13 variables and 378661 rowns
 
 + **ID** 
-+ **name** : Name of proposal
++ **name** : Name of project
 + **category** : Specific category of project
 + **main_category** : Parent Categories
 + **currency** : Original currency
