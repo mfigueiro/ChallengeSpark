@@ -21,9 +21,9 @@ spark_web(sc)
 
 ####### read the dataset into R #######
 
-#OBS. A limpeza dos dados foi feita ‡ m„o, usando o Excel.
+#OBS. A limpeza dos dados foi feita √† m√£o, usando o Excel.
 
-ks_tbl <- read.csv("ks-projects-201801.csv", quote= "",
+ks_tbl <- read.csv("ks-projects-201612.csv", quote= "",
                    fill=TRUE,
                    header=TRUE, stringsAsFactors=FALSE)
                    
@@ -46,7 +46,7 @@ src_tbls(sc)
 
 ####### Data analysis and save the results #######
 
-# 1) Quantidade de projetos por paÌs;
+# 1) Quantidade de projetos por pa√≠s;
 
 res1 <- table(ks_tbl$country)
 write.csv(res1,"mytable1.csv",quote=F)
@@ -59,7 +59,7 @@ res2 <- table(ks_tbl$category)
 x <- sort(res2,decreasing=T)
 write.csv(x,"mytable2.csv",quote=F)
 
-# 3) Para os projetos bem sucedidos do paÌs "US" qual o valor em dÛlares 
+# 3) Para os projetos bem sucedidos do pa√≠s "US" qual o valor em d√≥lares 
 #foi arrecadado acima das metas estabelecidas.
 
 write.csv(res3,"mytable2.csv",quote=F)
