@@ -17,7 +17,7 @@ Utilizando o framework spark, na linguagem de sua preferência, identificar as s
 
 3 - Quais as 3 categorias com maior quantidade de projetos aprovados, e quanto foi arrecadado em projetos aprovados por cada uma destas 3 categorias;
 
-[Access csv file here](https://github.com/mfigueiro/ChallengeSpark/blob/master/mytable2.csv)
+[Access csv file here](https://github.com/mfigueiro/ChallengeSpark/blob/master/mytable2.csv, https://github.com/mfigueiro/ChallengeSpark/blob/master/mytable3.csv)
 
 > **Categorias** | **Frequência (n)** | **Arrecadação** | 
 > --- | --- | --- |
