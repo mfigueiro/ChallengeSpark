@@ -1,4 +1,4 @@
-13 variables and 378661 rowns
+13 variables and 378661 rows
 
 + **ID** 
 + **name** : Name of project
